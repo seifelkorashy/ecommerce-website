@@ -50,7 +50,7 @@ export default function Home() {
         </Button>
       </Box>
 
-      <Typography variant="h4">featured products</Typography>
+      <Typography variant="h4">best sellers</Typography>
       <Divider sx={{ color: "#272935" }} />
 
       <Box
@@ -76,30 +76,16 @@ export default function Home() {
         >
           <CardMedia
             sx={{ height: 200, borderRadius: "10px" }}
-            image="https://images.pexels.com/photos/943150/pexels-photo-943150.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600"
+            image="/imgs/pro1.jpg"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              avant-garde lamp
+              mix berries
             </Typography>
             <Typography variant="body1" sx={{ color: "text.secondary" }}>
-              $180
+              200 EGP
             </Typography>
           </CardContent>
-          <Button
-          variant="contained"
-          sx={{
-            mt: 2,
-            width: "fit-content",
-            backgroundColor:
-              theme.palette.mode === "light" ? "#057aff" : "#ff7ac6",
-            color: theme.palette.mode === "light" ? "#fff" : "#000",
-            padding: "10px 20px",
-            borderRadius: "10px",
-          }}
-        >
-          add to cart
-        </Button>
         </Card>
 
         <Card
@@ -115,30 +101,16 @@ export default function Home() {
         >
           <CardMedia
             sx={{ height: 200, borderRadius: "10px" }}
-            image="	https://images.pexels.com/photos/3679601/pexels-photo-3679601.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2"
+            image="/imgs/pro2.jpg"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-             coffe table
+            pink set
             </Typography>
             <Typography variant="body1" sx={{ color: "text.secondary" }}>
-              $180
+              500 EGP
             </Typography>
           </CardContent>
-          <Button
-          to="/products"
-          sx={{
-            mt: 2,
-            width: "fit-content",
-            backgroundColor:
-              theme.palette.mode === "light" ? "#057aff" : "#ff7ac6",
-            color: theme.palette.mode === "light" ? "#fff" : "#000",
-            padding: "10px 20px",
-            borderRadius: "10px",
-          }}
-        >
-          add to cart
-        </Button>
         </Card>
 
         <Card
@@ -154,30 +126,16 @@ export default function Home() {
         >
           <CardMedia
             sx={{ height: 200, borderRadius: "10px" }}
-            image="https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600"
+            image="/imgs/pro3.jpg"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              comfy bed
+              classic set
             </Typography>
             <Typography variant="body2" sx={{ color: "text.secondary" }}>
-              $180
+              100 EGP
             </Typography>
           </CardContent>
-          <Button
-          to="/products"
-          sx={{
-            mt: 2,
-            width: "fit-content",
-            backgroundColor:
-              theme.palette.mode === "light" ? "#057aff" : "#ff7ac6",
-            color: theme.palette.mode === "light" ? "#fff" : "#000",
-            padding: "10px 20px",
-            borderRadius: "10px",
-          }}
-        >
-          add to cart
-        </Button>
         </Card>
       </Box>
     </Container>
